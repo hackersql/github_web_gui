@@ -19,5 +19,5 @@
   session_destroy();
 
   // All done, redirect user back to login
-  header("location: /sqlmap/admin/login.php");
+  header("location: /sq1map_web_gui/admin/login.php");
 ?>

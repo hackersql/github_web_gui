@@ -31,7 +31,7 @@
         </p>
       </div>
 
-      <form class="form-horizontal" role="form" id="myForm" action="/sqlmap/scans.php" method="POST" target="_blank">
+      <form class="form-horizontal" role="form" id="myForm" action="/sq1map_web_gui/scans.php" method="POST" target="_blank">
         <input type="hidden" name="token" value="<?php echo $token; ?>">
         <div class="settings" id="settings">
           <div class="nav_wrap" id="nav_wrap">

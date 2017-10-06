@@ -14,7 +14,7 @@
   define('SQLMAP_OUTPUT_PATH', '/home/kodachi/.sqlmap/output/');
 
   // Define where to write our local scan file archives to
-  define('TMP_PATH', '/tmp/sqlmap/');
+  define('TMP_PATH', '/tmp/sq1map_web_gui/');
 
   // Path to the local Metasploit directory
   // May be used to generate shellcode for advanced exploit functionalities

@@ -90,7 +90,7 @@ function enumCheck() {
 }
 
 function redirectHome() {
-  window.location="/sqlmap/index.php";
+  window.location="/sq1map_web_gui/index.php";
 }
 
 function validateMarkerInjection() {
@@ -123,9 +123,9 @@ function validate() {
 }
 
 function downloadScanResults(hostName) {
-  window.location="/sqlmap/download.php?target=" + encodeURIComponent(hostName);
+  window.location="/sq1map_web_gui/download.php?target=" + encodeURIComponent(hostName);
 }
 
 function scanKill(scanId) {
-  window.location="/sqlmap/kill.php?id="+scanId;
+  window.location="/sq1map_web_gui/kill.php?id="+scanId;
 }
